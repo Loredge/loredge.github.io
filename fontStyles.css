@@ -1,0 +1,515 @@
+html, * {
+	font-size: 100%;
+	font-family: "Source Sans Pro";
+	box-sizing: border-box;
+	margin: 0;
+  	padding: 0;
+  	text-decoration: none;
+}
+
+/*p {
+	padding: 1%;
+}*/
+
+.dStuff {
+	display: block;
+}
+
+/*----------------------------------------Screenwider than 1380px-------------------------------------*/
+.moreThanpx1380 {
+	width: 100%;
+	background-color: red;
+}
+
+.f1 {  /*Biggest title*/
+	color: #4A4A4A;
+	font-weight: 700;
+	font-size: 3.2rem;
+}
+
+.f2 { /*Big title*/
+	color: #4A4A4A;
+	font-weight: 600;
+	font-size: 2.2em;
+}
+
+.f11 { /*thin title*/
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 2.0rem;
+	color: #535353;
+}
+
+.f3 { /*Small title*/
+	color: #4A4A4A;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.f4 { /*super small-title*/
+	font-weight: 400;
+	font-size: 0.9rem;
+	color: #000000;
+}
+
+.f5 { /*Pre-title*/
+	color: #4A4A4A;
+	font-weight: 200;
+	font-size: 1.2em;
+}
+
+.f6 { /*Bread text type 1*/
+	color: #4A4A4A;
+	font-weight: 100;
+	font-size: 1.1em;
+}
+
+.f7 { /*Bread text type 2*/
+	color: #4A4A4A;
+	font-size: 1.6rem;
+	text-align: center;
+	font-weight: 200;
+	line-height: 2.2rem;
+}
+
+.f8 { /*Bread text type 3*/
+	color: #4A4A4A;
+	font-size: 1.0rem;
+	line-height: 2rem;
+	font-weight: 100;
+}
+
+.f9 { /*link type 1*/
+	color: #4A4A4A;
+	font-weight: 200;
+	font-size: 0.8em;
+}
+
+.f10 { /*link type 2*/
+	color: #000000;
+	font-size: 0.9em;
+	font-weight: 300;
+}
+
+
+
+/*----------------------------------------Screen between  1200-1380px-------------------------------------*/
+@media screen and (max-width: 1200px) {
+	.moreThanpx1380 {
+		background-color: white;
+	}
+
+	.moreThanpx1200 {
+		width: 100%;
+		background-color: green;
+	}
+
+	.f1 {  /*Biggest title*/
+		color: #4A4A4A;
+		font-weight: 700;
+		font-size: 3.0rem;
+	}
+
+	.f2 { /*Big title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 2.0em;
+	}
+
+	.f11 { /*thin title*/
+		font-weight: 200;
+		text-transform: uppercase;
+		font-size: 1.8rem;
+		color: #535353;
+	}
+
+	.f3 { /*Small title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.4em;
+	}
+
+	.f4 { /*super small-title*/
+		font-weight: 400;
+		font-size: 0.9rem;
+		color: #000000;
+	}
+
+	.f5 { /*Pre-title*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 1.1em;
+	}
+
+	.f6 { /*Bread text type 1*/
+		color: #4A4A4A;
+		font-weight: 100;
+		font-size: 1.0em;
+	}
+
+	.f7 { /*Bread text type 2*/
+		color: #4A4A4A;
+		font-size: 1.3rem;
+		text-align: center;
+		font-weight: 200;
+		line-height: 2.0rem;
+	}
+
+	.f8 { /*Bread text type 3*/
+		color: #4A4A4A;
+		font-size: 1.0rem;
+		line-height: 2rem;
+		font-weight: 100;
+	}
+
+	.f9 { /*link type 1*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 0.8em;
+	}
+
+	.f10 { /*link type 2*/
+		color: #000000;
+		font-size: 0.9em;
+		font-weight: 300;
+	}
+}
+
+
+
+/*----------------------------------------Screen between 900-1200px-------------------------------------*/
+@media screen and (max-width: 900px) {
+	.moreThanpx1380, .moreThanpx1200 {
+		background-color: white;
+	}
+
+	.moreThanpx900 {
+		width: 100%;
+		background-color: pink;
+	}
+
+	.f1 {  /*Biggest title*/
+		color: #4A4A4A;
+		font-weight: 700;
+		font-size: 2.8rem;
+	}
+
+	.f2 { /*Big title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 2.0em;
+	}
+
+	.f11 { /*thin title*/
+		font-weight: 200;
+		text-transform: uppercase;
+		font-size: 1.6rem;
+		color: #535353;
+	}
+
+	.f3 { /*Small title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.3em;
+	}
+
+	.f4 { /*super small-title*/
+		font-weight: 400;
+		font-size: 0.8rem;
+		color: #000000;
+	}
+
+	.f5 { /*Pre-title*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 1.1em;
+	}
+
+	.f6 { /*Bread text type 1*/
+		color: #4A4A4A;
+		font-weight: 100;
+		font-size: 1.0em;
+	}
+
+	.f7 { /*Bread text type 2*/
+		color: #4A4A4A;
+		font-size: 1.2rem;
+		text-align: center;
+		font-weight: 200;
+		line-height: 1.5rem;
+	}
+
+	.f8 { /*Bread text type 3*/
+		color: #4A4A4A;
+		font-size: 0.8rem;
+		line-height: 2rem;
+		font-weight: 100;
+	}
+
+	.f9 { /*link type 1*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 0.8em;
+	}
+
+	.f10 { /*link type 2*/
+		color: #000000;
+		font-size: 0.8em;
+		font-weight: 300;
+	}
+}
+
+/*----------------------------------------Screen between 720-900px-------------------------------------*/
+@media screen and (max-width: 720px) {
+	.moreThanpx1380, .moreThanpx1200, .moreThanpx900 {
+		background-color: white;
+	}
+
+	.moreThanpx720 {
+		width: 100%;
+		background-color: blue;
+	}
+
+	.f1 {  /*Biggest title*/
+		color: #4A4A4A;
+		font-weight: 700;
+		font-size: 2.6rem;
+		/*background-color: red;*/
+	}
+
+	.f2 { /*Big title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.8em;
+	}
+
+	.f11 { /*thin title*/
+		font-weight: 200;
+		text-transform: uppercase;
+		font-size: 1.6rem;
+		color: #535353;
+	}
+
+	.f3 { /*Small title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.2em;
+	}
+
+	.f4 { /*super small-title*/
+		font-weight: 400;
+		font-size: 0.8rem;
+		color: #000000;
+	}
+
+	.f5 { /*Pre-title*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 1.2em;
+	}
+
+	.f6 { /*Bread text type 1*/
+		color: #4A4A4A;
+		font-weight: 100;
+		font-size: 1.1em;
+	}
+
+	.f7 { /*Bread text type 2*/
+		color: #4A4A4A;
+		font-size: 1.2rem;
+		text-align: center;
+		font-weight: 200;
+		line-height: 1.5rem;
+	}
+
+	.f8 { /*Bread text type 3*/
+		color: #4A4A4A;
+		font-size: 0.9rem;
+		line-height: 1.8rem;
+		font-weight: 100;
+	}
+
+	.f9 { /*link type 1*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 0.8em;
+	}
+
+	.f10 { /*link type 2*/
+		color: #000000;
+		font-size: 0.8em;
+		font-weight: 300;
+	}
+}
+
+
+
+
+/*----------------------------------------Screen between 480-720px-------------------------------------*/
+@media screen and (max-width: 480px) {
+	.moreThanpx1380, .moreThanpx1200, .moreThanpx900, .moreThanpx720 {
+		background-color: white;
+	}
+
+	.moreThanpx480 {
+		width: 100%;
+		background-color: yellow;
+	}
+
+	.f1 {  /*Biggest title*/
+		color: #4A4A4A;
+		font-weight: 700;
+		font-size: 2.2rem;
+	}
+
+	.f2 { /*Big title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.5em;
+	}
+
+	.f11 { /*thin title*/
+		font-weight: 200;
+		text-transform: uppercase;
+		font-size: 1.6rem;
+		color: #535353;
+	}
+
+	.f3 { /*Small title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.1em;
+	}
+
+	.f4 { /*super small-title*/
+		font-weight: 400;
+		font-size: 0.8rem;
+		color: #000000;
+	}
+
+	.f5 { /*Pre-title*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 1.1em;
+	}
+
+	.f6 { /*Bread text type 1*/
+		color: #4A4A4A;
+		font-weight: 100;
+		font-size: 1.0em;
+	}
+
+	.f7 { /*Bread text type 2*/
+		color: #4A4A4A;
+		font-size: 1.0rem;
+		text-align: center;
+		font-weight: 200;
+		line-height: 1.2rem;
+	}
+
+	.f8 { /*Bread text type 3*/
+		color: #4A4A4A;
+		font-size: 0.75rem;
+		line-height: 1.7rem;
+		font-weight: 100;
+	}
+
+	.f9 { /*link type 1*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 0.8em;
+	}
+
+	.f10 { /*link type 2*/
+		color: #000000;
+		font-size: 0.8em;
+		font-weight: 300;
+	}
+}
+
+
+
+
+
+/*----------------------------------------Screen narrower than 360px-------------------------------------*/
+@media screen and (max-width: 360px) {
+		.moreThanpx1380, .moreThanpx1200, .moreThanpx900, .moreThanpx720, .moreThanpx480 {
+		background-color: white;
+	}
+
+	.moreThanpx3600 {
+		width: 100%;
+		background-color: orange;
+	}
+
+	.f1 {  /*Biggest title*/
+		color: #4A4A4A;
+		font-weight: 700;
+		font-size: 2.2rem;
+	}
+
+	.f2 { /*Big title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.5em;
+	}
+
+
+	.f11 { /*thin title*/
+		font-weight: 200;
+		text-transform: uppercase;
+		font-size: 1.6rem;
+		color: #535353;
+	}
+
+	.f3 { /*Small title*/
+		color: #4A4A4A;
+		font-weight: 600;
+		font-size: 1.1em;
+	}
+
+	.f4 { /*super small-title*/
+		font-weight: 400;
+		font-size: 0.8rem;
+		color: #000000;
+	}
+
+	.f5 { /*Pre-title*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 1.1em;
+	}
+
+	.f6 { /*Bread text type 1*/
+		color: #4A4A4A;
+		font-weight: 100;
+		font-size: 0.85em;
+	}
+
+	.f7 { /*Bread text type 2*/
+		color: #4A4A4A;
+		font-size: 1.0rem;
+		text-align: center;
+		font-weight: 200;
+		line-height: 1.2rem;
+	}
+
+	.f8 { /*Bread text type 3*/
+		color: #4A4A4A;
+		font-size: 0.75rem;
+		line-height: 1.7rem;
+		font-weight: 100;
+	}
+
+	.f9 { /*link type 1*/
+		color: #4A4A4A;
+		font-weight: 200;
+		font-size: 0.8em;
+	}
+
+	.f10 { /*link type 2*/
+		color: #000000;
+		font-size: 0.8em;
+		font-weight: 300;
+	}
+}
